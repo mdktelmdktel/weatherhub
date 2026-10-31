@@ -1,0 +1,7 @@
+build/
+*.apk
+tmp/
+node_modules/
+research/*.html
+.DS_Store
+*.log

@@ -1,0 +1,13 @@
+{
+  "ip": "183.95.163.194",
+  "is_bogon": false,
+  "company": "UNICOM HB",
+  "asn": "AS4837 CHINA UNICOM China169 Backbone",
+  "city": "Wuhan",
+  "region": "Hubei",
+  "country": "China",
+  "lat": 30.5851,
+  "lon": 114.2662,
+  "timezone": "Asia/Shanghai",
+  "docs": "https://ipapi.is/free-tier.html?ref=api"
+}

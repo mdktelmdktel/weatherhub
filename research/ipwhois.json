@@ -1,0 +1,38 @@
+{
+    "ip": "183.95.163.194",
+    "success": true,
+    "type": "IPv4",
+    "continent": "Asia",
+    "continent_code": "AS",
+    "country": "China",
+    "country_code": "CN",
+    "region": "Hubei Sheng",
+    "region_code": "HB",
+    "city": "Wuhan",
+    "latitude": 30.5833318,
+    "longitude": 114.2666736,
+    "is_eu": false,
+    "postal": "430000",
+    "calling_code": "86",
+    "capital": "Beijing",
+    "borders": "AF,BT,HK,IN,KG,KP,KZ,LA,MM,MN,MO,NP,PK,RU,TJ,VN",
+    "flag": {
+        "img": "https://cdn.ipwhois.io/flags/cn.svg",
+        "emoji": "🇨🇳",
+        "emoji_unicode": "U+1F1E8 U+1F1F3"
+    },
+    "connection": {
+        "asn": 4837,
+        "org": "China Unicom HuBei Province Network",
+        "isp": "CHINA UNICOM China169 Backbone",
+        "domain": "chinaunicom.cn"
+    },
+    "timezone": {
+        "id": "Asia/Shanghai",
+        "abbr": "CST",
+        "is_dst": false,
+        "offset": 28800,
+        "utc": "+08:00"
+    },
+    "readme": "https://ipwhois.io/docs"
+}
