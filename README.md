@@ -20,10 +20,10 @@
 
 ## 📲 下载安装
 
-- **APK**：[dist/WeatherHub-1.0.0.apk](dist/WeatherHub-1.0.0.apk)（约 165 KB，已签名）
+- **APK**：[dist/WeatherHub-1.0.0.apk](dist/WeatherHub-1.0.0.apk)（约 165 KB，已签名）· 或从 [Releases v1.0.0](https://github.com/mdktelmdktel/weatherhub/releases/tag/v1.0.0) 下载
 - 支持 Android 6.0+（minSdk 23 / targetSdk 34），无需 Google 服务
 - 安装时如提示"未知来源"，在系统设置里允许本次安装即可
-- SHA-256：`d8e8d375fc068920d47227c7cd1735c800909d5118e2ff23affe6353f902ed78`
+- SHA-256：`771cd10f1ecfba4461dd848fafb56c58e8599009326abbe44cadc7b7f42cce44`
 
 ## ✨ 功能
 
