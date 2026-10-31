@@ -57,8 +57,10 @@ if (repo.status === 404) {
 
 const REPO = `/repos/${owner}/${repoName}`;
 const branch = repo.body.default_branch || "main";
-// 空仓库无法直接建 blob：先用 Contents API 提交一个种子文件
-if ((repo.body.size || 0) === 0) {
+// 空仓库无法直接建 blob：先用 Contents API 提交一个种子文件。
+// 注意 GitHub 的 repo.size 有延迟，不能用 size 判断，直接看分支 ref。
+const refProbe = await api(`${REPO}/git/ref/heads/${branch}`);
+if (refProbe.status === 404) {
   const seed = await api(`${REPO}/contents/README.md`, { method: "PUT", body: JSON.stringify({ message: "chore: init repository", content: Buffer.from("# WeatherHub\n\n初始化仓库，随后推送完整源码。\n").toString("base64") }) });
   if (seed.status !== 200 && seed.status !== 201) throw new Error("seed failed: " + JSON.stringify(seed.body).slice(0, 300));
   console.log("seeded empty repo via Contents API");

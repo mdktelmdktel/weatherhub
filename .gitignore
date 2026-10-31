@@ -1,7 +1,9 @@
 build/
-*.apk
-tmp/
+dist/*.apk.tmp
 node_modules/
-research/*.html
-.DS_Store
+tools/lib/*.jar
+tmp/
 *.log
+.DS_Store
+research/*.html
+package-lock.json
